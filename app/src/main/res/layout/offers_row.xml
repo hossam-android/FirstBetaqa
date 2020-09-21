@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/round_white_no_padding"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:id="@+id/relative"
+    android:layoutDirection="ltr"
+    android:layout_marginBottom="5dp">
+
+    <com.hashtag.firstbetaqa.MyTextViewBold
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/offerDetailsString"
+        android:id="@+id/title"
+        android:background="@drawable/round_top_move"
+        android:textColor="#ffffff"
+        />
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/title"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitXY"
+        android:layout_margin="5dp"
+        android:id="@+id/offerImage"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toLeftOf="@+id/offerImage"
+        android:layout_below="@+id/title"
+        android:layout_alignTop="@+id/offerImage"
+        android:layout_marginRight="5dp"
+        >
+
+
+
+
+        <com.hashtag.firstbetaqa.MyTextViewBold
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="dasdsadas"
+            android:gravity="right"
+            android:id="@+id/offertitle"
+            android:textColor="#000000"/>
+
+        <com.hashtag.firstbetaqa.MyTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/offerContent"
+            android:text="dsadadsadsadsadsadsadadsadsadsadsa"
+            android:maxLines="3"
+            android:gravity="right"/>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">البطاقة الأولى</string>
+    <string name="toolbar_home">The First Card</string>
+    <string name="center">Center</string>
+    <string name="contact">Contact data</string>
+    <string name="phone">Phone</string>
+    <string name="address">Address</string>
+    <string name="newsTitle">News Page </string>
+
+    <string name="offerDetailsTitle">Offers</string>
+    <string name="offerDetailsString">Special offer for First Card holders</string>
+
+
+    <string name="joinInfo">Join Request </string>
+    <string name="requestCard">Request Card </string>
+    <string name="requestCardContent"> Will contact with you once join and complete all required info</string>
+    <string name="requestCardDeliver">Payment at Deliver </string>
+
+
+    <string name="requestCardFullName">Your Name </string>
+    <string name="requestCardAddress">Address</string>
+    <string name="requestCardPhone">Phone </string>
+    <string name="requestCardDetails"> Other Details  </string>
+    <string name="email"> Email </string>
+    <string name="buildingName">Company Name </string>
+    <string name="buildingaddress">Company Address</string>
+    <string name="details"> Other Details </string>
+    <string name="comments"> Comments</string>
+    <string name="addComment"> Add Comment </string>
+
+    <string name="fillData">Please fill up your data </string>
+
+    <string name="send">Send </string>
+
+    <string name="emailError">Please enter correct email</string>
+
+    <string name="percentage">Percentage</string>
+
+
+    <string name="cateogry">Cateogry :</string>
+    <string name="city">City :</string>
+    <string name="area">Area :</string>
+
+
+    <string name="partners">Join Partners</string>
+    <string name="requestJoinPartner">Request to join our partners</string>
+    <string name="partnerName">Company Name</string>
+    <string name="webLink">Website Link</string>
+    <string name="ManagerName">Manager Name</string>
+    <string name="jobTitle">Job Title</string>
+    <string name="managerPhone">Manager Phone</string>
+    <string name="managerEmail">Manager Email</string>
+    <string name="NumberOfEmployees">Number of employees</string>
+    <string name="sectors">Sectors</string>
+    <string name="partnerCity">City</string>
+    <string name="partnerArea">Area</string>
+    <string name="selectImage">Please Select Image</string>
+    <string name="search">what are you looking for</string>
+
+
+</resources>

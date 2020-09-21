@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/round_white"
+    android:orientation="horizontal"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="5dp"
+
+    >
+
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp">
+        
+        <com.hashtag.firstbetaqa.MyTextViewBold
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:textColor="#D60003"
+            android:text="30%"
+            android:textSize="17sp"
+            android:id="@+id/percentage"
+            android:layout_gravity="center"/>
+
+        <com.hashtag.firstbetaqa.MyTextViewBold
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#D60003"
+            android:textSize="10sp"
+            android:text="@string/percentage"/>
+        
+        
+    </LinearLayout>
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical">
+        
+        
+        <com.hashtag.firstbetaqa.MyTextViewBold
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:gravity="center"
+            android:textColor="#000000"/>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end"
+            android:layout_marginTop="5dp">
+
+            <com.hashtag.firstbetaqa.MyTextViewBold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/catWord"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:id="@+id/cateogry"
+                android:text="dasdsadas"
+                android:layout_gravity="center"
+                android:textSize="10sp"/>
+
+            <com.hashtag.firstbetaqa.MyTextViewBold
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/catRight"
+                android:text="@string/cateogry"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@+id/catWord"
+                android:textSize="10sp"/>
+            
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/cat_search"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:id="@+id/catRight"/>
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end"
+            android:layout_marginTop="5dp">
+
+            <com.hashtag.firstbetaqa.MyTextViewBold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/cityWord"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:id="@+id/city"
+                android:text="asdasdsad"
+                android:layout_gravity="center"
+                android:textSize="10sp"/>
+
+            <com.hashtag.firstbetaqa.MyTextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/cityRight"
+                android:text="@string/city"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:id="@+id/cityWord"
+                android:gravity="center"
+                android:minWidth="40dp"
+                android:layout_gravity="center"
+                android:textSize="10sp"/>
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/city_search"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:id="@+id/cityRight"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:layout_marginTop="5dp">
+
+            <com.hashtag.firstbetaqa.MyTextViewBold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/areaWord"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:id="@+id/area"
+                android:text="dasdasd"
+                android:layout_gravity="center"
+                android:textSize="10sp"/>
+
+            <com.hashtag.firstbetaqa.MyTextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/areaRight"
+                android:text="@string/area"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:id="@+id/areaWord"
+                android:minWidth="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="10sp"/>
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:src="@drawable/area_search"
+                android:layout_gravity="center"
+                android:id="@+id/areaRight"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    
+    
+    
+    
+    
+    
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/searchImage"/>
+    
+    
+    
+    
+    
+</LinearLayout>

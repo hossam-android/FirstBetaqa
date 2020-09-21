@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">البطاقة الأولى</string>
+    <string name="toolbar_home">البطاقة الأولى</string>
+    <string name="center">مركز</string>
+    <string name="contact">معلومات الإتصال</string>
+    <string name="phone">رقم الجوال</string>
+    <string name="address">العنوان</string>
+    <string name="newsTitle">صفحة الخبر</string>
+
+    <string name="offerDetailsTitle">العروض</string>
+    <string name="offerDetailsString">عرض خاص لحاملي البطاقة الأولى</string>
+
+
+    <string name="joinInfo">البيانات المطلوبة  </string>
+    <string name="requestCard">طلب بطاقة</string>
+    <string name="requestCardContent">سيتم التواصل معك فور اشتراك وتعبئة البيانات المطلوبة</string>
+    <string name="requestCardDeliver">الدفع عند الإستلام</string>
+
+
+
+    <string name="requestCardFullName">الاسم بالكامل </string>
+    <string name="requestCardAddress">عنوانك</string>
+    <string name="requestCardPhone">رقم الجوال</string>
+    <string name="requestCardDetails"> تفاصيل اخري </string>
+    <string name="email"> البريد الالكتروني </string>
+    <string name="buildingName">  اسم المنشأة </string>
+    <string name="buildingaddress">  عنوان المنشأه </string>
+    <string name="details"> تفاصيل أخري</string>
+    <string name="comments"> التعليقات</string>
+    <string name="addComment"> إضافة تعليق</string>
+
+    <string name="fillData">من فضلك قم بأستكمال البيانات الناقصه </string>
+
+    <string name="send">إرسال </string>
+
+    <string name="emailError">من فضلك قم بإدخال بريد إلكتروني بشكل صحيح</string>
+
+    <string name="percentage">نسبة الخصم</string>
+
+    <string name="cateogry">القسم :</string>
+    <string name="city">المدينة :</string>
+    <string name="area">المنطقة :</string>
+
+    <string name="partners">انضم لشركائنا</string>
+
+    <string name="requestJoinPartner">طلب الانضمام لشركائنا</string>
+    <string name="partnerName">اسم الشركة</string>
+    <string name="ManagerName">اسم المسئول</string>
+    <string name="jobTitle">المسمي الوظيفي للمسئول</string>
+    <string name="managerPhone">هاتف المسئول</string>
+    <string name="managerEmail">بريد الكتروني المسئول</string>
+    <string name="NumberOfEmployees">عدد العاملين</string>
+    <string name="sectors">القطاعات</string>
+    <string name="webLink">موقع الإلكتروني</string>
+    <string name="partnerCity">المدينة</string>
+    <string name="selectImage">من فضلك قم بإختيار صورة</string>
+    <string name="search">ما الذي تبحث عنه</string>
+    <string name="partnerArea">المنطقة</string>
+
+
+
+
+
+
+
+
+</resources>

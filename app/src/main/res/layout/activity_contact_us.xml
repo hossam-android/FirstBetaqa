@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/lin"
+    android:layoutDirection="ltr"
+    tools:context="app.com.firstcard.activities.ContactUsActivity">
+
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        android:id="@+id/phoneLinear"
+        android:layout_marginBottom="5dp">
+
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/phone"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/phoneImage"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/phoneImage"
+            android:orientation="vertical"
+            android:layout_marginRight="10dp"
+            android:id="@+id/linPhone"
+            android:gravity="center"
+            android:layout_marginTop="10dp">
+
+            <com.hashtag.firstbetaqa.MyTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:text="@string/phone"
+                />
+
+            <com.hashtag.firstbetaqa.MyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/phone"
+                android:textColor="#000000"
+                />
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        android:id="@+id/emailLinear"
+        android:layout_marginBottom="2dp">
+
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/mail"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/emailImage"/>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_toLeftOf="@+id/emailImage"
+            android:orientation="vertical"
+            android:id="@+id/linEmail"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp">
+
+            <com.hashtag.firstbetaqa.MyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:text="@string/email"
+                android:id="@+id/emailText"
+                />
+
+            <com.hashtag.firstbetaqa.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:id="@+id/email"
+                android:gravity="right"
+                android:layout_below="@+id/emailText"
+                android:layout_alignStart="@+id/emailText"
+                />
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+    </LinearLayout>
+
+    <com.hashtag.firstbetaqa.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/contact"
+        android:textColor="#000000"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        >
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColorHint="#F69A3B"
+            >
+
+            <com.hashtag.firstbetaqa.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/requestCardFullName"
+                android:id="@+id/fullname"
+                android:padding="10dp"
+                android:textSize="13sp"
+                android:background="@android:color/transparent"/>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#eeeeee"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColorHint="#F69A3B"
+
+            >
+
+            <com.hashtag.firstbetaqa.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/phone"
+                android:id="@+id/phoneForm"
+                android:padding="10dp"
+                android:inputType="phone"
+                android:textSize="13sp"
+                android:background="@android:color/transparent"/>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#eeeeee"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColorHint="#F69A3B"
+
+            android:id="@+id/emailLayout">
+
+            <com.hashtag.firstbetaqa.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email"
+                android:id="@+id/emailform"
+                android:padding="10dp"
+
+                android:inputType="textEmailAddress"
+                android:textSize="13sp"
+                android:background="@android:color/transparent"/>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#eeeeee"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:textColorHint="#F69A3B"
+
+            android:layout_marginLeft="20dp">
+
+            <com.hashtag.firstbetaqa.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/details"
+                android:padding="10dp"
+                android:textSize="13sp"
+                android:id="@+id/content"
+                android:background="@android:color/transparent"/>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#eeeeee"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <com.hashtag.firstbetaqa.CircleButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/send"
+            android:background="#C3206C"
+            android:textColor="#ffffff"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:layout_gravity="center"
+            android:id="@+id/send"
+            app:spinning_bar_color="#ffffff"
+            android:layout_marginTop="20dp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
+
+</ScrollView>

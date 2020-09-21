@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:id="@+id/sco">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/round_white"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/lin">
+
+        <com.hashtag.firstbetaqa.MyTextViewBold
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/joinInfo"
+            android:textColor="#000000"
+            android:layout_marginTop="20dp"/>
+
+
+        <com.hashtag.firstbetaqa.MyTextViewBold
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/requestCardContent"
+            android:textSize="11sp"
+            android:layout_marginTop="5dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColorHint="#F88D1E">
+
+            <com.hashtag.firstbetaqa.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:hint="@string/requestCardFullName"
+                android:id="@+id/fullname"
+                android:paddingRight="20dp"
+                android:textSize="13sp"
+                android:paddingLeft="20dp"
+                android:paddingTop="5dp"
+                android:inputType="text"
+                android:paddingBottom="5dp"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#eeeeee"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+
+            android:textColorHint="#F88D1E"
+            android:layout_height="wrap_content">
+
+            <com.hashtag.firstbetaqa.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:hint="@string/requestCardPhone"
+                android:id="@+id/phone"
+                android:inputType="phone"
+                android:paddingRight="20dp"
+                android:textSize="13sp"
+                android:paddingLeft="20dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#eeeeee"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+
+            android:textColorHint="#F88D1E"
+            android:layout_height="wrap_content">
+
+            <com.hashtag.firstbetaqa.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:hint="@string/email"
+                android:id="@+id/email"
+                android:inputType="textEmailAddress"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:textSize="13sp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#eeeeee"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+
+            android:textColorHint="#F88D1E"
+            android:layout_height="wrap_content">
+
+            <com.hashtag.firstbetaqa.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:hint="@string/buildingName"
+                android:id="@+id/buildingName"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:inputType="text"
+                android:textSize="13sp"
+
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#eeeeee"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+
+            android:textColorHint="#F88D1E"
+            android:layout_height="wrap_content">
+
+            <com.hashtag.firstbetaqa.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:hint="@string/buildingaddress"
+                android:id="@+id/buildingAddress"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:textSize="13sp"
+                android:inputType="text"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#eeeeee"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+
+            android:textColorHint="#F88D1E"
+            android:layout_height="wrap_content">
+
+            <com.hashtag.firstbetaqa.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:hint="@string/details"
+                android:id="@+id/details"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:textSize="13sp"
+                android:inputType="textMultiLine"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#eeeeee"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+
+
+
+        <com.hashtag.firstbetaqa.MyTextViewBold
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/requestCardDeliver"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:layout_marginTop="15dp"/>
+
+    </LinearLayout>
+
+
+
+    <com.hashtag.firstbetaqa.CircleButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/joinInfo"
+        android:background="#C3206C"
+        android:textColor="#ffffff"
+        android:id="@+id/sendCard"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/lin"
+        android:layout_marginTop="20dp"
+        app:spinning_bar_color="#ffffff"
+        android:layout_marginBottom="20dp"
+        />
+
+
+
+
+</RelativeLayout>
+
+    </ScrollView>

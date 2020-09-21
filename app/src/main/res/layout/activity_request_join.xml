@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.RequestJoinActivity">
+
+
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
+
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/requestContent"
+        android:layout_above="@+id/requestCardBtn"/>
+
+
+    <com.hashtag.firstbetaqa.MyButtonBold
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/joinInfo"
+        android:background="#C3206C"
+        android:textColor="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/requestCardBtn"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/progress"/>
+
+
+</RelativeLayout>

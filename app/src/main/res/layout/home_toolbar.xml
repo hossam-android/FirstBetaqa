@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@drawable/toolbar">
+
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:text="E"
+        android:gravity="top|center"
+        android:id="@+id/changeLang"
+        android:textColor="#000000"
+        android:background="@drawable/circle_white"
+        android:layout_marginRight="5dp"
+        />
+
+
+
+    <com.hashtag.firstbetaqa.MyTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/title"
+        android:textColor="#ffffff"
+        android:maxLines="1"
+        android:layout_marginLeft="5dp"
+        />
+
+
+
+
+
+</androidx.appcompat.widget.Toolbar>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".activities.PartnersActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/partnersRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/joinPartners"
+            android:layout_below="@+id/toolbar" />
+
+
+        <com.hashtag.firstbetaqa.MyButtonBold
+            android:id="@+id/joinPartners"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#C3206C"
+            android:text="@string/partners"
+            android:textColor="#ffffff" />
+
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar"
+            android:background="@drawable/round_green"
+            android:layout_centerInParent="true"/>
+
+
+    </RelativeLayout>
+
+
+</androidx.core.widget.NestedScrollView>
